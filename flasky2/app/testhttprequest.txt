@@ -1,0 +1,10 @@
+﻿{"ordernum":"RSAP21071400002","cupcount":1,"content":[{"cupNum":"S20210422001","stationa":"02","stationb":"01010200030004000500","stationc":"01010200030004000500","stationd":"01000200030004000503","statione":"01010200030004000500","stationf":"01010200030004000500"}]}
+
+http --json --auth eyJhbGciOiJIUzI1NiIsImlhdCI6MTYyNjI0OTA5NCwiZXhwIjoxNjI2MjUyNjk0fQ.eyJpZCI6MX0.8JxunrcAU9yzPrlqUo_oElUhB4WP62nEG0ub10Up8Ho: post http://127.0.0.1:5000/api/v1/posts/ \
+"body={"ordernum":"RSAP21071400002","cupcount":1,"content":[{"cupNum":"S20210422001","stationa":"02","stationb":"01010200030004000500","stationc":"01010200030004000500","stationd":"01000200030004000503","statione":"01010200030004000500","stationf":"01010200030004000500"}]}"
+
+
+
+ http --json --auth eyJhbGciOiJIUzI1NiIsImlhdCI6MTYxNzI1ODQ1NCwiZXhwIjoxNjE3MjYyMDU0fQ.eyJpZCI6MX0.KsDjBleTYJiE99htfm_XRcQgui4DQgx2EKKU_9bD-64: post http://paypay.local:5000/api/v1/posts/ \
+"body={Hello this is order post}"
+
